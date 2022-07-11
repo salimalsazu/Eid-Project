@@ -1,0 +1,204 @@
+/* Responsive Design Start */
+
+@media only screen and (max-width: 768px) {
+
+    /* ---------------------------------------------- */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+        width: auto;
+        margin-bottom: -50px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+        width: auto;
+
+    }
+
+    .hero-text a {
+        width: auto;
+    }
+
+    /* ---------------------------------------------- */
+    .lives-depend {
+        width: auto;
+        height: auto;
+    }
+
+    .lives-depend-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .depend-text {
+        margin-bottom: 35px;
+    }
+
+    .depend-text h1 {
+        font-size: 45px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .depend-text p {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .depend-text a {
+        width: auto;
+        text-align: center;
+    }
+
+    .depend-img {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* ---------------------------------------------- */
+
+    .depend-img1 {
+        margin-bottom: 25px;
+    }
+
+    /* ---------------------------------------------- */
+
+    .direct-help {
+        width: auto;
+        height: auto;
+    }
+
+    .direct-help-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .box-1 {
+        margin: 12px 25px;
+        padding: 15px 15px;
+        width: auto;
+
+    }
+
+    .help-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .help-text h1 {
+        font-size: 45px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .help-text p {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* ---------------------------------------------- */
+
+    .picture {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .picture-img {
+        margin-top: 25px;
+    }
+
+    /*------------------------------------*/
+    .hand-of-charity {
+        width: auto;
+        height: auto;
+    }
+
+
+    .charity-text h1 {
+        font-size: 45px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .charity-text p {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 55px;
+    }
+
+    .charity-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .charity-box1 {
+        margin-top: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 650px) {
+    .hero-text h1 {
+        font-size: 45px;
+        width: auto;
+        margin-bottom: 65px;
+    }
+
+    .depend-text h1 {
+        margin-bottom: 70px;
+    }
+
+    .depend-text p {
+        margin-bottom: 70px;
+    }
+
+    .charity-text {
+        gap: 85px;
+    }
+}
+
+/* ---------------------------------------------- */
+
+
+/* Responsive Design End */
